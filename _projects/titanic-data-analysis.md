@@ -1,5 +1,6 @@
 ---
 title: "Titanic Survival Analysis"
+date: "2025-10-04"
 categories: [Python, EDA]
 tags: [Python, Pandas, Matplotlib, Seaborn, Machine Learning, Data Analysis]
 excerpt: "Comprehensive exploratory data analysis of the Titanic dataset to identify factors influencing passenger survival rates using Python and statistical visualization."
