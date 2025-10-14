@@ -1,5 +1,6 @@
 ---
 title: "Hotel Revenue Analytics Dashboard"
+date: "2025-10-12"
 categories: [PowerBI, Data Visualization]
 tags: [Power BI, Data Cleaning, DAX, Hospitality Analytics, KPI Development]
 excerpt: "Interactive Power BI dashboard tracking hotel occupancy, ADR, and revenue metrics with drill-through capabilities for the Cyber Shujaa Program."
@@ -153,6 +154,7 @@ Predictive analytics for revenue forecasting
 Guest satisfaction analysis integration
 
 <a href="https://drive.google.com/file/d/1D2j7NqgM-SL9IT_IQFE5clGcV8GOlXUP/view?usp=sharing" class="btn btn--primary">View Project Documentation and Code</a>
+
 
 
 
