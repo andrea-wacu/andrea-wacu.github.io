@@ -152,5 +152,4 @@ Predictive analytics for revenue forecasting
 
 Guest satisfaction analysis integration
 
-View Project Documentation and Code
-
+<a href="https://drive.google.com/file/d/1D2j7NqgM-SL9IT_IQFE5clGcV8GOlXUP/view?usp=sharing" class="btn btn--primary">View Project Documentation and Code</a>
