@@ -1,6 +1,5 @@
 ---
 title: "Web Scraping: Hockey Team Data Extraction"
-date: 2024-01-08
 categories: [Python, Web Scraping]
 tags: [Python, BeautifulSoup, Requests, Pandas, Data Collection]
 excerpt: "Automated web scraping project extracting hockey team statistics from live website using Python and exporting to structured CSV format."
