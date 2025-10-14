@@ -17,11 +17,11 @@ The dashboard provides real-time insights into key hospitality performance indic
 ## Data Sources & Transformation
 
 ### Data Sources Used
-- `dim_date.csv` - Date dimension table
-- `dim_hotels.csv` - Hotel property information
-- `dim_rooms.csv` - Room category details
-- `fact_aggregated_bookings.csv` - Pre-aggregated booking data
-- `fact_bookings.csv` - Individual booking records
+- **dim_date.csv** - Date dimension table
+- **dim_hotels.csv** - Hotel property information
+- **dim_rooms.csv** - Room category details
+- **fact_aggregated_bookings.csv** - Pre-aggregated booking data
+- **fact_bookings.csv** - Individual booking records
 
 ### Data Cleaning & Transformation
 - Converted CSV files into structured tables using Power Query
@@ -100,28 +100,28 @@ Professional color palette using blues and pinks for metric distinction
 Tooltips for additional context on hover
 
 ### Visualizations Implemented
-`Slicers/Filters`: City, Hotel, Room Type, Month, Week
+**Slicers/Filters**: City, Hotel, Room Type, Month, Week
 
-`KPI Cards`: Revenue, ADR, Occupancy %, RevPAR, DSRN, Realization %
+**KPI Cards**: Revenue, ADR, Occupancy %, RevPAR, DSRN, Realization %
 
-`Comparative Charts`: Day Type analysis (Weekday vs. Weekend)
+**Comparative Charts**: Day Type analysis (Weekday vs. Weekend)
 
-`Trend Analysis`: Line charts for weekly performance
+**Trend Analysis**: Line charts for weekly performance
 
-`Platform Analysis`: Booking platform performance
+**Platform Analysis**: Booking platform performance
 
-`Revenue Distribution`: Pie chart by room category
+**Revenue Distribution**: Pie chart by room category
 
-`Property-Level Details`: Detailed table for individual hotel metrics
+**Property-Level Details**: Detailed table for individual hotel metrics
 
 ### Interactivity Features
-`Dynamic Filtering`: City and room type selections update all visuals
+**Dynamic Filtering**: City and room type selections update all visuals
 
-`Cross-Filtering`: Seamless data subset exploration
+**Cross-Filtering**: Seamless data subset exploration
 
-`Drill-Down Capability`: Granular property-level analysis
+**Drill-Down Capability**: Granular property-level analysis
 
-`Hover Tooltips`: Additional metric context and breakdowns
+**Hover Tooltips**: Additional metric context and breakdowns
 
 ## Key Outcomes & Impact
 85% reduction in manual reporting time through automation
@@ -135,13 +135,13 @@ Provided actionable insights for pricing strategy optimization
 Scalable model allowing future integration of additional data sources
 
 ## Technologies & Tools
-`Power BI` - Dashboard development and visualization
+**Power BI** - Dashboard development and visualization
 
-`Power Query` - Data transformation and cleaning
+**Power Query** - Data transformation and cleaning
 
-`DAX` - Business logic and calculated measures
+**DAX** - Business logic and calculated measures
 
-`Star Schema` - Data modeling architecture
+**Star Schema** - Data modeling architecture
 
 ## Future Enhancements
 Integration of external data sources (competitor pricing, weather, local events)
@@ -153,5 +153,6 @@ Predictive analytics for revenue forecasting
 Guest satisfaction analysis integration
 
 <a href="https://drive.google.com/file/d/1D2j7NqgM-SL9IT_IQFE5clGcV8GOlXUP/view?usp=sharing" class="btn btn--primary">View Project Documentation and Code</a>
+
 
 
