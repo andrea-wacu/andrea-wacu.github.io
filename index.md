@@ -1,7 +1,12 @@
 ---
 layout: single
 author_profile: true
-title: "Home"
+title: "Where Data Meets Clarity"
+header:
+ overlay_color: "#000"
+ overlay_filter: 0.4
+ overlay_image: /assets/images/data.jpg
+ caption: "Turning messy data into meaningful stories"
 feature_row:
   - image_path: /assets/images/clean.png
     alt: "Data Cleaning"
