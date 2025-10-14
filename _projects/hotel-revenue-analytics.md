@@ -1,6 +1,5 @@
 ---
 title: "Hotel Revenue Analytics Dashboard"
-date: 2024-01-15
 categories: [PowerBI, Data Visualization]
 tags: [Power BI, Data Cleaning, DAX, Hospitality Analytics, KPI Development]
 excerpt: "Interactive Power BI dashboard tracking hotel occupancy, ADR, and revenue metrics with drill-through capabilities for the Cyber Shujaa Program."
@@ -60,8 +59,8 @@ week_num = WEEKNUM(dim_date[date])
 day_type = 
 VAR wkd = WEEKDAY(dim_date[date])
 RETURN IF(wkd > 5, "Weekend", "Weekday")
-
-Core Business Measures
+```
+### Core Business Measures
 Revenue Metrics:
 
 Revenue = SUM(fact_bookings[revenue_realized])
@@ -88,8 +87,8 @@ ADR WoW change % - Average Daily Rate weekly changes
 
 RevPAR WoW change % - Revenue per Available Room weekly performance
 
-Dashboard Development
-Design Approach
+## Dashboard Development
+### Design Approach
 Top-to-bottom logical flow with filters and KPIs at the top
 
 Comparative analysis in the middle section showing trends
@@ -100,31 +99,31 @@ Professional color palette using blues and pinks for metric distinction
 
 Tooltips for additional context on hover
 
-Visualizations Implemented
-Slicers/Filters: City, Hotel, Room Type, Month, Week
+### Visualizations Implemented
+`Slicers/Filters`: City, Hotel, Room Type, Month, Week
 
-KPI Cards: Revenue, ADR, Occupancy %, RevPAR, DSRN, Realization %
+`KPI Cards`: Revenue, ADR, Occupancy %, RevPAR, DSRN, Realization %
 
-Comparative Charts: Day Type analysis (Weekday vs. Weekend)
+`Comparative Charts`: Day Type analysis (Weekday vs. Weekend)
 
-Trend Analysis: Line charts for weekly performance
+`Trend Analysis`: Line charts for weekly performance
 
-Platform Analysis: Booking platform performance
+`Platform Analysis`: Booking platform performance
 
-Revenue Distribution: Pie chart by room category
+`Revenue Distribution`: Pie chart by room category
 
-Property-Level Details: Detailed table for individual hotel metrics
+`Property-Level Details`: Detailed table for individual hotel metrics
 
-Interactivity Features
-Dynamic Filtering: City and room type selections update all visuals
+### Interactivity Features
+`Dynamic Filtering`: City and room type selections update all visuals
 
-Cross-Filtering: Seamless data subset exploration
+`Cross-Filtering`: Seamless data subset exploration
 
-Drill-Down Capability: Granular property-level analysis
+`Drill-Down Capability`: Granular property-level analysis
 
-Hover Tooltips: Additional metric context and breakdowns
+`Hover Tooltips`: Additional metric context and breakdowns
 
-Key Outcomes & Impact
+## Key Outcomes & Impact
 85% reduction in manual reporting time through automation
 
 12% increase in RevPAR through identified optimization opportunities
@@ -135,16 +134,16 @@ Provided actionable insights for pricing strategy optimization
 
 Scalable model allowing future integration of additional data sources
 
-Technologies & Tools
-Power BI - Dashboard development and visualization
+## Technologies & Tools
+`Power BI` - Dashboard development and visualization
 
-Power Query - Data transformation and cleaning
+`Power Query` - Data transformation and cleaning
 
-DAX - Business logic and calculated measures
+`DAX` - Business logic and calculated measures
 
-Star Schema - Data modeling architecture
+`Star Schema` - Data modeling architecture
 
-Future Enhancements
+## Future Enhancements
 Integration of external data sources (competitor pricing, weather, local events)
 
 Automated alert systems for KPI threshold breaches
@@ -154,3 +153,4 @@ Predictive analytics for revenue forecasting
 Guest satisfaction analysis integration
 
 View Project Documentation and Code
+
