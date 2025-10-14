@@ -1,5 +1,6 @@
 ---
 title: "Netflix Data Wrangling & Cleaning"
+date: "2025-09-29"
 categories: [Python, Data Cleaning]
 tags: [Python, Pandas, Data Wrangling, Data Quality, Kaggle]
 excerpt: "Comprehensive data cleaning and transformation of Netflix shows dataset, addressing data quality issues and preparing it for analysis."
