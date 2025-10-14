@@ -29,43 +29,43 @@ Developed an automated web scraping solution to extract structured hockey team d
 - **Data Type:** Hockey team statistics and performance metrics
 - **Structure:** HTML table with multiple data columns
 
-### Methodology
+## Methodology
 
-#### Step 1: Environment Setup
-# Import required libraries
+### Step 1: Environment Setup
+#### Import required libraries
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from google.colab import files
 
-#### Step 2: Web Page Retrieval
-# Define target URL and fetch HTML content
+### Step 2: Web Page Retrieval
+#### Define target URL and fetch HTML content
 url = "https://www.scrapethissite.com/pages/forms/"
 page = requests.get(url)
 soup = BeautifulSoup(page.text, "html.parser")
 
-#### Step 3: HTML Parsing & Data Extraction
-# Locate target data table
+### Step 3: HTML Parsing & Data Extraction
+#### Locate target data table
 hockey_table = soup.find("table", class_="table")
 
-# Extract column headers
+#### Extract column headers
 header_row = hockey_table.find('tr')
 column_names = [th.text.strip() for th in header_row.find_all('th')]
 
-# Extract table rows
+#### Extract table rows
 rows = []
 for row in hockey_table.find_all('tr')[1:]:  # Skip header row
     row_data = [td.text.strip() for td in row.find_all('td')]
     rows.append(row_data)
 
-#### Step 4: Data Structuring & Export 
-# Create DataFrame and populate with extracted data
+### Step 4: Data Structuring & Export 
+#### Create DataFrame and populate with extracted data
 df = pd.DataFrame(columns=column_names)
 for row in hockey_table.find_all('tr')[1:]:
     row_data = [td.text.strip() for td in row.find_all('td')]
     df.loc[len(df)] = row_data
 
-# Export to CSV and download
+### Step 5: Export to CSV and download
 df.to_csv('hockey_team_stats.csv', index=False)
 files.download('hockey_team_stats.csv')
 
@@ -99,15 +99,6 @@ Market Research: Systematic gathering of public information
 Data Pipeline Development: Foundation for automated data collection systems
 
 Business Intelligence: Raw data sourcing for analytical dashboards
-
-## Future Enhancements
-Integration with scheduling for automated daily data collection
-
-Expansion to multiple related websites for comprehensive data coverage
-
-Addition of data validation and quality checks
-
-Development of API wrapper for easy data access
 
 ---
 
