@@ -6,7 +6,8 @@ excerpt: "Interactive Power BI dashboard tracking hotel occupancy, ADR, and reve
 ---
 
 ## Project Overview
-Developed a comprehensive hotel revenue analytics dashboard as part of the Cyber Shujaa Program's Business Intelligence assignment. The dashboard provides real-time insights into key hospitality performance indicators including occupancy rates, average daily rate (ADR), and revenue per available room (RevPAR).
+Developed a comprehensive hotel revenue analytics dashboard as part of the Cyber Shujaa Program's Business Intelligence assignment. 
+The dashboard provides real-time insights into key hospitality performance indicators including occupancy rates, average daily rate (ADR), and revenue per available room (RevPAR).
 
 ## Business Objectives
 - Understand hotel business dynamics and client needs
@@ -153,3 +154,4 @@ Predictive analytics for revenue forecasting
 Guest satisfaction analysis integration
 
 <a href="https://drive.google.com/file/d/1D2j7NqgM-SL9IT_IQFE5clGcV8GOlXUP/view?usp=sharing" class="btn btn--primary">View Project Documentation and Code</a>
+
