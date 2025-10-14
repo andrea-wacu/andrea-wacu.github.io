@@ -43,7 +43,6 @@ Here you'll find data analysis challenges and exercises I've completed as part o
 - **Visualization:** Static charts → Interactive dashboards → Business reporting
 
 ### Tools & Technologies Mastered
-`python`
 **Data Collection & Cleaning**
 Python, Pandas, BeautifulSoup, Requests
 
