@@ -44,16 +44,16 @@ Here you'll find data analysis challenges and exercises I've completed as part o
 
 ### Tools & Technologies Mastered
 `python`
-# Data Collection & Cleaning
+**Data Collection & Cleaning**
 Python, Pandas, BeautifulSoup, Requests
 
-# Analysis & Statistics  
+**Analysis & Statistics**  
 NumPy, Matplotlib, Seaborn, Statistical testing
 
-# Business Intelligence
+**Business Intelligence**
 Power BI, DAX, Power Query, Data modeling
 
-# Platforms & Environments
+**Platforms & Environments**
 Google Colab, Kaggle, Jupyter Notebooks
 
 ## 📚 Key Learning Outcomes
