@@ -202,6 +202,37 @@ Develop and evaluate a linear regression model to predict house prices based on 
 
 ---
 
+## 🎯 Challenge 7: Multi-Model Wine Classification
+
+### Problem Statement
+Implement and compare six different supervised machine learning classification algorithms to predict wine types based on chemical composition features, identifying the most effective model through comprehensive performance evaluation and feature importance analysis.
+
+### Approach
+1. **Data Exploration**: Comprehensive analysis of dataset structure, class distribution, and feature correlations
+2. **Preprocessing**: Stratified train-test splitting and feature scaling for algorithm compatibility
+3. **Model Implementation**: Training of six classification algorithms with appropriate configurations
+4. **Evaluation Framework**: Multi-metric assessment including accuracy, precision, recall, F1-score, and confusion matrices
+5. **Comparative Analysis**: Performance ranking and feature importance interpretation across all models
+
+### Tools Used
+- **Python** with Scikit-learn for machine learning implementation
+- **Pandas & NumPy** for data manipulation and analysis
+- **Matplotlib & Seaborn** for statistical visualization and comparison
+- **Classification Algorithms**: Logistic Regression, Decision Trees, Random Forest, KNN, Naive Bayes, SVM
+- **Evaluation Metrics**: Comprehensive performance assessment framework
+
+### Key Lessons Learned
+- Multiple algorithms can achieve similar performance on well-structured datasets
+- Feature scaling significantly impacts distance-based algorithms like KNN and SVM
+- Ensemble methods (Random Forest) often provide robust performance across various scenarios
+- Feature importance analysis reveals underlying data patterns and relationships
+- Model interpretability varies significantly between algorithms
+- Comprehensive evaluation requires multiple metrics beyond simple accuracy
+
+**[View Full Project Details →](/projects/wine-classification-ml/)**
+
+---
+
 **Explore all my projects in detail: [View Complete Project Portfolio →](/projects/)**
 
 *These lab challenges demonstrate my systematic approach to solving data problems and my commitment to continuous skill development in data analytics.*
