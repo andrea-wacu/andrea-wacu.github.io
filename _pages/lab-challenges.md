@@ -121,6 +121,35 @@ Develop an interactive business intelligence dashboard to track hotel performanc
 
 ---
 
+## 🎯 Challenge 5: HR Analytics Dashboard Development
+
+### Problem Statement
+Design and develop an interactive HR Analytics dashboard to provide comprehensive workforce insights, track key HR metrics, and support data-driven human resources decision making for organizational leadership.
+
+### Approach
+1. **Data Preparation**: Imported and transformed HR datasets, ensuring data quality and proper formatting
+2. **Metric Development**: Created calculated measures for employee tracking, demographic analysis, and performance indicators
+3. **Visualization Design**: Implemented multiple chart types including line charts, bar charts, maps, and advanced visualizations
+4. **Dashboard Integration**: Combined visualizations into interactive sections with cross-filtering capabilities
+5. **User Experience**: Designed intuitive navigation and interactive features for business users
+
+### Tools Used
+- **Tableau** for dashboard development and visualization
+- **Data Calculation** functions for custom metrics
+- **Interactive Features** including filters, parameters, and tooltips
+- **Business Intelligence** principles for KPI design
+
+### Key Lessons Learned
+- HR data requires careful handling of demographic and compensation information
+- Interactive dashboards significantly enhance user engagement and insight discovery
+- Calculated measures enable deeper analysis beyond basic data visualization
+- Cross-filtering between visualizations provides comprehensive data exploration
+- Business intelligence in HR requires balancing data insights with ethical considerations
+
+**[View Full Project Details →](/projects/hr-analytics-dashboard/)**
+
+---
+
 ## 🔧 Technical Skills Development
 
 ### Data Collection & Preparation
