@@ -1,6 +1,6 @@
 ---
 title: "HR Analytics Dashboard with Tableau"
-date: 2024-03-15
+date: 2025-10-21
 categories: [Tableau, Business Intelligence]
 tags: [Tableau, HR Analytics, Dashboard, Data Visualization, KPI Tracking]
 excerpt: "Interactive HR Analytics dashboard providing comprehensive workforce insights, demographic analysis, and compensation trends for strategic human resources management."
