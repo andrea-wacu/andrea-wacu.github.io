@@ -150,6 +150,36 @@ Design and develop an interactive HR Analytics dashboard to provide comprehensiv
 
 ---
 
+## 🎯 Challenge 6: House Price Prediction with Linear Regression
+
+### Problem Statement
+Develop and evaluate a linear regression model to predict house prices based on property area, implementing a complete machine learning pipeline from data exploration to model deployment and performance assessment.
+
+### Approach
+1. **Data Exploration**: Comprehensive analysis of dataset structure, quality, and variable relationships
+2. **Visualization**: Implementation of scatter plots, histograms, and correlation analysis
+3. **Model Development**: Linear regression training with proper train-test split methodology
+4. **Evaluation**: Comprehensive performance metrics including R² score, MAE, MSE, and RMSE
+5. **Validation**: Model application to new data and visualization of predictions
+
+### Tools Used
+- **Python** with Scikit-learn for machine learning implementation
+- **Pandas & NumPy** for data manipulation and mathematical operations
+- **Matplotlib & Seaborn** for statistical visualization
+- **Google Colab** for development and execution environment
+- **Statistical Analysis** for model interpretation and validation
+
+### Key Lessons Learned
+- Linear regression provides interpretable models for continuous prediction tasks
+- Proper train-test split is essential for realistic model performance assessment
+- Multiple evaluation metrics provide comprehensive model understanding
+- Data visualization is crucial for model interpretation and validation
+- Feature engineering and dataset size significantly impact model performance
+
+**[View Full Project Details →](/projects/house-price-prediction/)**
+
+---
+
 ## 🔧 Technical Skills Development
 
 ### Data Collection & Preparation
