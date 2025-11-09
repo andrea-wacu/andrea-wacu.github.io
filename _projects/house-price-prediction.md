@@ -1,6 +1,6 @@
 ---
 title: "House Price Prediction using Linear Regression"
-date: 2024-03-20
+date: 2025-10-30
 categories: [Machine Learning, Python]
 tags: [Linear Regression, Scikit-learn, Python, Predictive Modeling, Data Science]
 excerpt: "Machine learning project implementing linear regression to predict house prices based on area, achieving 92% accuracy with comprehensive model evaluation."
