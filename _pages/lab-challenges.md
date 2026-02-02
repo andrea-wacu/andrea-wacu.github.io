@@ -180,28 +180,6 @@ Develop and evaluate a linear regression model to predict house prices based on 
 
 ---
 
-## 🔧 Technical Skills Development
-
-### Data Collection & Preparation
-- Web scraping and API integration
-- Data cleaning and quality assurance
-- Feature engineering and transformation
-- Data validation frameworks
-
-### Analysis & Visualization
-- Statistical analysis and hypothesis testing
-- Exploratory data analysis methodologies
-- Business intelligence dashboard development
-- Data storytelling and insight communication
-
-### Tools & Technologies Mastered
-- **Programming**: Python, DAX
-- **Libraries**: Pandas, NumPy, BeautifulSoup, Requests, Matplotlib, Seaborn
-- **BI Tools**: Power BI, Power Query
-- **Platforms**: Google Colab, Kaggle, Jupyter Notebooks
-
----
-
 ## 🎯 Challenge 7: Multi-Model Wine Classification
 
 ### Problem Statement
@@ -230,6 +208,62 @@ Implement and compare six different supervised machine learning classification a
 - Comprehensive evaluation requires multiple metrics beyond simple accuracy
 
 **[View Full Project Details →](/projects/wine-classification-ml/)**
+
+---
+
+## 🏠 Challenge 8: MLOps Pipeline for California Housing Price Prediction
+
+### Problem Statement
+Design and implement an end-to-end MLOps pipeline to predict median house prices in California, focusing on reproducibility, scalability, and production readiness while optimizing model performance through systematic hyperparameter tuning and cross-validation.
+
+### Approach
+1. **Data Pipeline Construction**: Built integrated preprocessing and modeling pipeline to prevent data leakage
+2. **Reproducible Workflows**: Implemented fixed random states and version-controlled configurations
+3. **Hyperparameter Optimization**: Systematic GridSearchCV with 5-fold cross-validation over neighbor counts, weighting methods, and distance metrics
+4. **Model Validation**: Comprehensive evaluation using R² score and RMSE with training-test consistency checks
+5. **Production Readiness**: Model serialization using pickle for deployment and reuse
+
+### Tools Used
+- **Python** with Scikit-learn for complete MLOps implementation
+- **Pandas & NumPy** for data manipulation and numerical operations
+- **GridSearchCV** for exhaustive hyperparameter optimization with cross-validation
+- **Pipeline & ColumnTransformer** for integrated preprocessing and modeling
+- **Pickle** for model serialization and persistence
+- **Evaluation Metrics**: R² score, RMSE, cross-validation consistency
+
+### Key Lessons Learned
+- MLOps pipelines significantly improve reproducibility and reduce deployment errors
+- Integrated preprocessing prevents data leakage and ensures consistent transformations
+- Manhattan distance can outperform Euclidean distance for certain feature spaces
+- Cross-validation scores close to test scores indicate minimal overfitting
+- Model serialization is essential for production deployment and version control
+- Pipeline structures enable easy model updates and feature engineering additions
+- Systematic hyperparameter search often reveals non-intuitive optimal configurations
+- Distance-based weighting improves KNN performance for regression tasks
+
+**[View Full Project Details →](/projects/california-housing-mlops/)**
+
+---
+
+## 🔧 Technical Skills Development
+
+### Data Collection & Preparation
+- Web scraping and API integration
+- Data cleaning and quality assurance
+- Feature engineering and transformation
+- Data validation frameworks
+
+### Analysis & Visualization
+- Statistical analysis and hypothesis testing
+- Exploratory data analysis methodologies
+- Business intelligence dashboard development
+- Data storytelling and insight communication
+
+### Tools & Technologies Mastered
+- **Programming**: Python, DAX
+- **Libraries**: Pandas, NumPy, BeautifulSoup, Requests, Matplotlib, Seaborn
+- **BI Tools**: Power BI, Power Query
+- **Platforms**: Google Colab, Kaggle, Jupyter Notebooks
 
 ---
 
