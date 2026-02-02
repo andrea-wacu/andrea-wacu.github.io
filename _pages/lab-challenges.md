@@ -11,7 +11,7 @@ Here you'll find detailed documentation of data analysis challenges I've complet
 
 ---
 
-## 🎯 Challenge 1: Web Scraping & Data Collection
+## 🕷️ Challenge 1: Web Scraping & Data Collection
 
 ### Problem Statement
 Extract structured hockey team statistics from a live website and transform the data into an analysis-ready format for further processing and visualization.
@@ -38,7 +38,7 @@ Extract structured hockey team statistics from a live website and transform the 
 
 ---
 
-## 🎯 Challenge 2: Netflix Data Wrangling
+## 🎬 Challenge 2: Netflix Data Wrangling
 
 ### Problem Statement
 Clean and transform a messy Netflix dataset containing inconsistent formatting, missing values, and data quality issues into a reliable, analysis-ready dataset.
@@ -65,7 +65,7 @@ Clean and transform a messy Netflix dataset containing inconsistent formatting, 
 
 ---
 
-## 🎯 Challenge 3: Titanic Survival Analysis
+## 🚢 Challenge 3: Titanic Survival Analysis
 
 ### Problem Statement
 Conduct comprehensive exploratory data analysis on the Titanic dataset to identify factors influencing passenger survival rates and uncover meaningful patterns in the data.
@@ -93,7 +93,7 @@ Conduct comprehensive exploratory data analysis on the Titanic dataset to identi
 
 ---
 
-## 🎯 Challenge 4: Hotel Revenue Analytics
+## 🏨 Challenge 4: Hotel Revenue Analytics
 
 ### Problem Statement
 Develop an interactive business intelligence dashboard to track hotel performance metrics, enable data-driven decision making, and provide real-time insights into revenue optimization opportunities.
@@ -121,7 +121,7 @@ Develop an interactive business intelligence dashboard to track hotel performanc
 
 ---
 
-## 🎯 Challenge 5: HR Analytics Dashboard Development
+## 👥 Challenge 5: HR Analytics Dashboard Development
 
 ### Problem Statement
 Design and develop an interactive HR Analytics dashboard to provide comprehensive workforce insights, track key HR metrics, and support data-driven human resources decision making for organizational leadership.
@@ -150,7 +150,7 @@ Design and develop an interactive HR Analytics dashboard to provide comprehensiv
 
 ---
 
-## 🎯 Challenge 6: House Price Prediction with Linear Regression
+## 🏠 Challenge 6: House Price Prediction with Linear Regression
 
 ### Problem Statement
 Develop and evaluate a linear regression model to predict house prices based on property area, implementing a complete machine learning pipeline from data exploration to model deployment and performance assessment.
@@ -180,7 +180,7 @@ Develop and evaluate a linear regression model to predict house prices based on 
 
 ---
 
-## 🎯 Challenge 7: Multi-Model Wine Classification
+## 🍷 Challenge 7: Multi-Model Wine Classification
 
 ### Problem Statement
 Implement and compare six different supervised machine learning classification algorithms to predict wine types based on chemical composition features, identifying the most effective model through comprehensive performance evaluation and feature importance analysis.
@@ -211,7 +211,7 @@ Implement and compare six different supervised machine learning classification a
 
 ---
 
-## 🏠 Challenge 8: MLOps Pipeline for California Housing Price Prediction
+## 🤖 Challenge 8: MLOps Pipeline for California Housing Price Prediction
 
 ### Problem Statement
 Design and implement an end-to-end MLOps pipeline to predict median house prices in California, focusing on reproducibility, scalability, and production readiness while optimizing model performance through systematic hyperparameter tuning and cross-validation.
@@ -242,6 +242,42 @@ Design and implement an end-to-end MLOps pipeline to predict median house prices
 - Distance-based weighting improves KNN performance for regression tasks
 
 **[View Full Project Details →](/projects/california-housing-mlops/)**
+
+---
+
+## 🔢 Challenge 9: MNIST Digit Classification with Neural Networks
+
+### Problem Statement
+Design, implement, and evaluate an Artificial Neural Network (ANN) for handwritten digit recognition using the MNIST dataset, focusing on architectural design, regularization techniques, and comprehensive performance evaluation to achieve production-grade accuracy.
+
+### Approach
+1. **Data Processing**: Normalized 70,000 grayscale images and converted pixel values to float format
+2. **ANN Architecture**: Designed sequential network with two hidden layers (128→64 neurons) and strategic dropout
+3. **Regularization**: Implemented dropout layers (30%) and early stopping to prevent overfitting
+4. **Training Optimization**: Used Adam optimizer with batch processing and validation monitoring
+5. **Comprehensive Evaluation**: Multi-metric assessment including accuracy, confusion matrix, and classification reports
+6. **Model Persistence**: Saved trained model in Keras format for deployment and reuse
+
+### Tools Used
+- **TensorFlow 2.x & Keras** for deep learning implementation
+- **NumPy & Pandas** for numerical operations and data handling
+- **Matplotlib & Seaborn** for visualization of results and performance metrics
+- **Scikit-learn** for evaluation metrics and confusion matrix generation
+- **Neural Network Components**: Flatten, Dense, Dropout layers with ReLU/Softmax activations
+
+### Key Lessons Learned
+- Data normalization is critical for stable neural network training
+- Dropout regularization effectively prevents overfitting in deep networks
+- Early stopping based on validation loss optimizes training duration
+- Two hidden layers provide sufficient complexity for MNIST classification
+- Softmax activation is ideal for multi-class probability distribution
+- Adam optimizer balances convergence speed and stability effectively
+- Confusion matrices reveal specific digit pairs prone to misclassification
+- Model serialization enables practical deployment without retraining
+- 97%+ accuracy is achievable with proper architecture and regularization
+- Training curves provide valuable insights into model learning behavior
+
+**[View Full Project Details →](/projects/mnist-digit-classification-ann/)**
 
 ---
 
