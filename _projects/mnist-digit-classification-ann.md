@@ -137,7 +137,7 @@ Implemented a complete deep learning pipeline for handwritten digit classificati
 - **Transfer Learning**: Leveraging pre-trained models for improved accuracy
 
 ## Code Repository
-[View Complete Implementation on Google Colab]([https://colab.research.google.com/drive/13tVvpi64FOd5507cKsVJlMdDN9d5Xq5M?usp=sharing])
+[View Complete Implementation on Google Colab](https://colab.research.google.com/drive/13tVvpi64FOd5507cKsVJlMdDN9d5Xq5M?usp=sharing)
 
 ---
 
