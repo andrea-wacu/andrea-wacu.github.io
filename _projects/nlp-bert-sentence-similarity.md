@@ -144,7 +144,7 @@ This project demonstrates advanced Natural Language Processing (NLP) techniques 
 - **Production Deployment**: API development for real-world applications
 
 ## Code Repository
-[View Complete Implementation on Google Colab](https://colab.research.google.com/drive/19EjnfQJaUtdx8gzbDJaU_9aBu3fAPIPx?usp=sharing)
+[View Complete Implementation on Google Colab](https://colab.research.google.com/drive/19EjnfQJaUtdx8gzbDJaU_9aBu3fAPIPx)
 
 ---
 
