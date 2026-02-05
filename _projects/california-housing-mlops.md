@@ -128,7 +128,7 @@ Designed and implemented a complete MLOps pipeline to predict median house price
 - **Deployment Interface**: Web application or API for real-time predictions
 
 ## Code Repository
-[View Complete Implementation on Google Colab]([https://colab.research.google.com/drive/1OoROLF4NFhyJRiqC7ZtKvz2h1wkJCoQi?usp=sharing])
+[View Complete Implementation on Google Colab](https://colab.research.google.com/drive/1OoROLF4NFhyJRiqC7ZtKvz2h1wkJCoQi)
 
 ---
 
